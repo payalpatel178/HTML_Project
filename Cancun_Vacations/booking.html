@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Book My Trip</title>
+		<meta charset="UTF-8"/>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header id="top">
+			<h1>Cancun Vacations</h1>
+			<hr>
+			<nav>
+					<a href="index.html">Home</a> |
+					<a href="packages.html">Packages</a> |
+					<a href="booking.html">Booking</a> |		
+					<a href="contact.html">Contact Us</a>
+			</nav>
+			<hr>
+		</header>
+		<main>
+			
+			<section id="main_content">
+				<h2>Book Your Best Trip With Us</h2> 
+				<article class="article_box">
+					<h3>Your Information</h3>
+					<form action="http://jac.stephmoreau.ca/submitForm/" target="_blank" method="POST">
+						<label for="fname">First name: </label><br>
+						<input type="text" name="fname" id="fname" required /><br><br>
+						
+						<label for="lname">Last name: </label><br>
+						<input type="text" name="lname" id="lname" required /><br><br>
+						
+						<label for="phone">Phone Number: </label><br>
+						<input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required /><br><span>Format: 123-456-7890</span><br><br>
+						
+						<label for="email">Email: </label><br>
+						<input type="email" name="email" id="email" required /><br><br><br>
+						
+						<label for="adults">Adults: </label>
+						<input type="number" name="adults" id="adults" value="1" min=1 required />
+						
+						<label for="child">Children: </label>
+						<input type="number" name="child" id="child" value="0" min=0 required /><br><br>
+						
+						<label for="package" >Select Package</label><br>
+							<select name="package" id="package">
+								<option value="a">A</option>
+								<option value="b">B</option>
+								<option value="c">C</option>
+								<option value="d">D</option>
+								<option value="e">E</option>
+								<option value="f">F</option>
+							</select><br><br>
+							
+						<label for="rooms">Rooms: </label><br>
+						<input type="number" name="rooms" id="rooms" value="1" min=1 required /><br><br>
+						
+						<label for="c_in_date">Check-In Date:</label><br>
+						<input type="date" name="c_in_date" id="c_in_date" required /><br><br>
+						
+						<label for="c_out_date">Check-Out Date:</label><br>
+						<input type="date" name="c_out_date" id="c_out_date" required /><br><br>
+						
+						<button type="submit" class="btn submit"><strong>Submit</strong></button>
+			
+						<button type="reset" class="btn reset"><strong>Reset</strong></button>
+					</form>
+				</article>
+			</section>
+			<aside class="aside">
+				<h4>Cancun</h4>
+				<img src="images/beach.jpg" alt="Image of canc&uacute;n city" height="261" width="350"><br>
+				<p>Cancún, a Mexican city on the Yucatán Peninsula bordering the Caribbean Sea, is known for
+				its beaches, numerous resorts and nightlife. It’s composed of 2 distinct areas: the more 
+				traditional downtown area, El Centro, and Zona Hotelera, a long, beachfront strip of high-rise
+				hotels, nightclubs, shops and restaurants. Cancun is also a famed destination for students
+				during universities’ spring break period.</p><br>
+				
+				<strong>Country</strong><span>Mexico</span><br>
+				<strong>State</strong><span>Quintana Roo</span><br>
+				<strong>Founded</strong><span>April 20, 1970</span><br>
+				<strong>Area Total</strong><span>1,978.75 km2</span><br>
+				<strong>Population (2015)</strong><span>743,626</span><br>
+				<strong>Weather</strong><span>28 °C, Wind E at 10 km/h</span><br>
+				<strong>Municipality</strong><span>Benito Ju&aacute;rez</span><br>
+				<strong>Government</strong><span>Mara Lezama Espinosa </span><br>
+				
+			
+				<br><span><a href="https://en.wikipedia.org/wiki/Canc%C3%BAn" title="To read more" target="_blank"> Read More </a></span>
+				
+			</aside>
+		</main>
+		<footer class="footer">
+			<nav>
+				<a href="index.html">Home</a> |
+				<a href="packages.html">Packages</a> |
+				<a href="booking.html">Booking</a> |		
+				<a href="contact.html">Contact Us</a>
+				<br><a href="#top">Back To Top</a><br><br>
+				
+				<small>All rights reserved &copy; 2019 HTML Project.</small>
+			</nav>
+		</footer>
+	</body>
+</html>
