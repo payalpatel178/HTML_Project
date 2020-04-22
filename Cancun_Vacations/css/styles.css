@@ -1,0 +1,147 @@
+body 
+{
+	background-color: teal;
+	border: 5px solid white;
+	padding: 15px;
+	font-family: Calibri;
+	color:white;
+	font-size:17px;
+}
+/* align content to the left */
+#main_content{
+	width:70%;
+	float:left;
+}
+/* align sidebar to the right */
+.aside{
+	float:right;
+	width:28%;
+	text-align:center;
+	font-size:25px;
+
+}
+.map_places{
+	width:50%;
+	float:left;
+}
+.places_to_visit{
+	float:right;
+	width:40%;
+	text-align:left;
+	font-size:20px;
+}
+/* footer */
+.footer{
+	clear: both;
+    position: relative;
+    height: 100px;
+	color:white;
+	font-size:20px;
+	text-align:center;
+	background-color:#900C3F;
+}
+h1{
+	text-align:center;
+}
+
+h3{
+	background-color:aqua;
+	font-size:20px;
+	height:30px;
+	color:#900C3F;
+	text-align:center;
+}
+p{
+	font-size:17px;
+	text-align:left;
+}
+header  nav{
+	background-color:#900C3F;
+	font-size:25px;
+	text-align:center;
+	height:40px;
+}
+/* article box */
+.article_box{
+	box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+	padding: 10px;
+	background: white;
+	color:teal;
+}
+.text-align_center{
+	text-align:center;
+}
+article > video{
+	text-align:center;
+}
+section > article > img{
+	border-radius: 20px;
+}
+
+main > aside > img{
+	border-radius: 10%;
+}
+main > aside > strong {
+	
+	float:left;
+	width:40%;
+	font-size:18px;
+	text-align:left;
+}
+main > aside > span {
+	
+	float:right;
+	width:60%;
+	font-size:17px;
+	text-align:left;
+}
+
+a{
+	color:white;
+}
+input[type=text], textarea, input[type=email],input[type=tel],input[type=number], select,input[type=date]{
+	padding: 7px;
+	width:70%;
+	border: 2px solid #900C3F;
+	border-radius: 5px;
+	resize: vertical;
+}
+input[type=number], select,input[type=date]{
+	padding: 7px;
+	width:20%;
+	border: 2px solid #900C3F;
+	border-radius: 5px;
+	resize: vertical;
+}
+
+label{
+	display: inline-block;
+	font-size:18px;
+}
+
+.btn{
+	height:50px;
+	width:200px;
+	font-size:20px;
+	color:white;
+}
+.submit{
+	background-color:green;
+}
+.reset{
+	background-color:red;
+}
+.center{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+.table_center{
+	text-align:center;
+	margin:auto;
+}
+table,th,td{
+	border:2px solid #900C3F;
+	
+}
